@@ -1,0 +1,158 @@
+body {
+    background-color: #F8F8FF;
+    #background-image: url("Marble3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 160px;
+    color: #030303;
+    font-family: "Open Sans", "Abel", "Trebuchet MS", sans-serif;
+}
+
+a:link {
+    color:#5077A3;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited {
+    color:#5077A3;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:link:hover {
+    color:#3377FF;
+}
+a:visited:hover {
+    color:#4477FF;
+}
+
+#top {
+    #border: 6px;
+    #border-radius: 4px;
+    #border-style: outset;
+    #border-color: #939393;
+    #background-color: #85858B;
+    color: black;
+    padding: 20px;
+	width: auto;
+    font-family: "Dosis";
+	font-family: RobotoR;
+    font-size: 25px;
+	font-size: 1.2vw;
+	font-size: calc(15px + 0.6vw);
+}
+#header {
+    font-size: 45px;
+	font-size: 2.2vw;
+	font-size: calc(30px + 0.6vw);
+	font-family: RobotoBlack;
+}
+.section {
+    border: 0px;
+    border-bottom: 3px;
+    border-color: #E0E0E0;
+    border-style: solid;
+    margin-top: 60px;
+    #background-color: #CDCDCD;
+    background-color: #FFF;
+    font-size: 24px;
+    width: 40%;
+    padding: 15px;
+}
+
+#contact {
+    position:fixed;
+    left:1.5%;
+    bottom:0%;
+    text-align: center;
+    width: 16%;
+    height: 27%;
+    #border: 6px;
+    #border-radius: 4px;
+    #border-style: outset;
+    #border-color: #939393;
+    #background-color: #85858B;
+    #color: white;
+    font-family: RobotoR;
+    font-size: 1.1vw;
+    line-height: 120%;
+    overflow: hidden;
+    text-overflow: clip;
+}
+#sidebar {
+    text-align: center;
+    position:fixed;
+    left: 0px;
+    top:160px;
+    #background-color: #DDDDDD;
+    #background-color: #F8F8FF;
+    width: 20%;
+    height: 100%;
+    /*    Border to the right
+    border-right: 15px solid #909090; 
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;*/
+}
+.nav {
+    padding-bottom: 10%;
+    padding-top: 10%;
+    left: 5px;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    background-color: #FFFFFF;
+    font-size: 2.2vw;
+    border-right: 15px solid;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-family: RobotoR;
+}
+.nav:hover {
+    background-color: #5077A3;
+    color: #FFF;
+}
+#aboutpic {
+    width: 100%;
+}
+#rights {
+    left: 22%;
+    position:absolute;
+    color: black;
+}
+.picdiv {
+    width: 24vw;
+    background-color: white;
+    height: 18vw;
+    padding-bottom: 1%;
+    color: #303030;
+    text-align: center;
+    font-size: 1.8vw;
+    border: 0px;
+    border-bottom: 2px #EEE;
+    border-style: solid;
+}
+
+.pic {
+    max-width: 100%;
+    margin-bottom: -8%;
+}
+#picture1 {
+    position: absolute;
+    right: 1%;
+    top: 22%;
+}
+#picture2 {
+    position: absolute;
+    right: 5%;
+    top: 66%;
+}
+#picture3 {
+    position: absolute;
+    right: 3%;
+    top: 115%;
+}
+@font-face {
+    font-family: RobotoR;
+    src: url(Roboto/roboto-regular.ttf)
+}
+@font-face {
+    font-family: RobotoBlack;
+    src: url(Roboto/roboto-black.ttf)
+}
